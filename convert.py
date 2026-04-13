@@ -1,7 +1,7 @@
 import os
 from PIL import Image
 
-folder = r"e:\elanog\assets\bus-fleet"
+folder = r"e:\Elango website\assets\bus-fleet"
 for file in os.listdir(folder):
     if file.lower().endswith(('.png', '.jpg', '.jpeg')):
         file_path = os.path.join(folder, file)
